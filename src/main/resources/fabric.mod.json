@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "rtpgoto",
+	"version": "${version}",
+	"name": "RTP Goto",
+	"description": "Client-only: runs /rtp repeatedly until you land near the coordinates you chose.",
+	"authors": ["you"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.rtpgoto.RtpGotoClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
